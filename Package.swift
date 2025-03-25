@@ -1,6 +1,6 @@
-
 // swift-tools-version:5.9
-// The swift-tools-version declares the minimum version of Swift required to build this package.import PackageDescription
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+import PackageDescription
 
 let package = Package(
     name: "MediaTailorSDK",
@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "MediaTailorSDK",
-            url: "https://github.com/datazoomer/apple_mediatailorsdk/releases/download/0.0.2/MediaTailorSDK.xcframework.zip",
-            checksum: "acbb7b194b398b473771956b85514531d2decd9d93478ee6929c0717d6807db4")
+            url: "https://github.com/datazoomer/apple_mediatailorsdk/releases/download/0.0.3/MediaTailorSDK.xcframework.zip",
+            checksum: "405ca54686d73fb93a78d3ab77b3093250b09b65b6f42fd1863b0c20034369f0")
     ],
     swiftLanguageVersions: [.v5]
 )
