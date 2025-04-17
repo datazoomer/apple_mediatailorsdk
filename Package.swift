@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "MediaTailorSDK",
-            url: "https://github.com/datazoomer/apple_mediatailorsdk/releases/download/1.0.0/MediaTailorSDK.xcframework.zip",
-            checksum: "f6883e4108fdb29216434cac98e78879bed423e795badd0ee5ba7914c865824a")
+            url: "https://github.com/datazoomer/apple_mediatailorsdk/releases/download/1.0.1/MediaTailorSDK.xcframework.zip",
+            checksum: "a4f932b0ed578faf5070a856b5ca67f79827feb11d62ae519c6eb2a571ca2ef2")
     ],
     swiftLanguageVersions: [.v5]
 )
